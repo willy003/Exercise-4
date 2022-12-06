@@ -1,0 +1,25 @@
+#box{
+    text-align:center;
+    padding:5px;
+    margin-left: 20%;
+    border-collapse: collapse;
+    width:60%;
+    font-family: sans-serif;
+    font-size:small;
+    border:1px solid rgb(238, 193, 193);
+}
+#box th,#box td{
+    border-bottom: 1px solid rgb(238, 193, 193);
+    padding:10px;
+}
+#box th{
+    border-bottom: 2px solid rgb(238, 193, 193);
+    font-style: bold;
+    font-size: medium;
+}
+#box tr:nth-child(odd){
+    background-color: rgb(245, 252, 252);
+}
+#box sub{
+    color:red;
+}
